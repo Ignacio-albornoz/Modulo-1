@@ -5,6 +5,29 @@ export const Wrap = styled.div`
     justify-content: center;
 `;
 
+export const Form = styled.form`
+    background-color: #ffffff13;
+    width: 80%;
+    max-width: 800px;
+    height: 80vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 2vh;
+    padding: 0 5%;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    
+`;
+
+export const Title = styled.h3`
+    font-size: 2.4rem;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    margin: 0px;
+`;
+
 export const Image = styled.img`
     border: 1px solid #d9d9d9;
     background: #d9d9d9;
@@ -14,24 +37,41 @@ export const Image = styled.img`
     object-fit: cover;
     height: 575px;
     width: auto;
-
-    
 `;
 
 export const Button = styled.button`
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    height: 2.8rem;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    background: #078FE3;
+    width: 80%;
+    margin: 0 auto;
 
-    background: linear-gradient(90deg, rgba(230,227,232,1) 0%, rgba(117,114,136,1) 35%, rgba(230,227,232,1) 50%, rgba(117,114,136,1) 100%);
-    border-radius: 50%;
-    height: 75px;
-    width: 75px;
-    border: 1px solid #613884;
-    position: absolute;
-    left: 63%;
-    top: 38%;
     :hover{
-        background-color:  #613884;
-        background: #613884;
-        box-shadow: 0px 10px 14px rgba(0, 0, 0, .5);
-        color: white;
+        background: #0885d2;
     }
+`;
+
+export const Input = styled.input`
+    border: 0.2px solid rgba(217, 217, 217, 0.75);
+    height: 1.6rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 1.2%;
+    letter-spacing: 0.8px;
+    font-family: "Muli", sans-serif;
+    ::placeholder {
+    color: #c9c9c98a;
+
+    }
+
+`;
+
+export const WrapText = styled.div`
+    display: flex;
+    margin: 0 auto;
 `;

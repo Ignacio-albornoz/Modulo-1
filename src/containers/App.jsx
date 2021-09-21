@@ -1,8 +1,14 @@
 import React from 'react';
 import Form from '../components/Form';
+import Layout from '../components/Layout';
+import GlobalStyle from '../GlobalStyled';
 
 const App = () => (
-  <Form title='INIT' />
+  <>
+    <GlobalStyle />
+    <Layout />
+    <Form title='INIT' />
+  </>
 );
 
 export default App;
