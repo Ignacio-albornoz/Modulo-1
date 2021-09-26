@@ -47,17 +47,17 @@ export const Button = styled.button`
     font-weight: 300;
     letter-spacing: 2px;
     color: rgb(255, 255, 255);
-    background: #078FE3;
+    background: #1b4b7d;;
     width: 80%;
     margin: 0 auto;
 
     :hover{
-        background: #0885d2;
+        background: #1b4b7d;;
     }
 `;
 
 export const Input = styled.input`
-    border: 0.2px solid rgba(217, 217, 217, 0.75);
+    border: 0.2px solid rgba(80, 80, 80, 0.315);
     height: 1.6rem;
     font-size: 1.1rem;
     font-weight: 500;
@@ -65,7 +65,7 @@ export const Input = styled.input`
     letter-spacing: 0.8px;
     font-family: "Muli", sans-serif;
     ::placeholder {
-    color: #c9c9c98a;
+    color: rgba(80, 80, 80, 0.315);
 
     }
 

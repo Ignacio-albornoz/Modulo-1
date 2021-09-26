@@ -13,6 +13,11 @@ const UserForm = ({ title }) => {
   const repeatpassword = useInputValue('');
   const disable = false;
 
+  const onSubmit = ({ firstname, lastname, email, phonenumber, password, repeatpassword }) => {
+    const input = { firstname, lastname, email, phonenumber, password, repeatpassword };
+    console.log(input);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     onSubmit({

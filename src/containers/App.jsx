@@ -7,7 +7,7 @@ const App = () => (
   <>
     <GlobalStyle />
     <Layout />
-    <Form title='INIT' />
+    <Form title='Enviar' />
   </>
 );
 
