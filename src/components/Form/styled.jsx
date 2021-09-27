@@ -11,7 +11,7 @@ export const Form = styled.form`
     margin-top: 2vh;
     padding: 0 5%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    
+    border-radius: 4px;
 `;
 
 export const Title = styled.h3`

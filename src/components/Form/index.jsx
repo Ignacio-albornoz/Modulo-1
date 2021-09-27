@@ -33,7 +33,7 @@ const UserForm = ({ title }) => {
         <Input placeholder='Nombre...' type='text' {...firstname} />
         <Input placeholder='Apellido...' type='text' {...lastname} />
         <Input placeholder='Email...' type='email' {...email} />
-        <Input placeholder='Telefono...' type='text' {...phonenumber} />
+        <Input placeholder='Telefono...' type='number' {...phonenumber} />
         <Input placeholder='Contraseña...' type='password' {...password} />
         <Input placeholder='Repetir Contraseña...' type='password' {...repeatpassword} />
         <Button type='submit'>{title}</Button>
