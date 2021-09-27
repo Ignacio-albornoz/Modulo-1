@@ -17,13 +17,11 @@ export const BurgerMenu = styled.button`
     border-radius: 50%;
     min-height: 40px;
     min-width: 40px;
-    box-shadow: 2px 1px 6px 1px rgb(0 0 0 / 30%);
-
-
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
   }
 
   & svg:hover{
     box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
-    background: rgba(0, 0 , 0, 0.03);
+    background: rgba(0, 0 , 0, 0.01);
   }
 `;

@@ -1,10 +1,5 @@
 import styled from 'styled-components';
 
-export const Wrap = styled.div`
-    display: flex;
-    justify-content: center;
-`;
-
 export const Form = styled.form`
     width: 80%;
     max-width: 800px;
@@ -64,12 +59,6 @@ export const Input = styled.input`
     font-family: "Muli", sans-serif;
     ::placeholder {
     color: rgba(107, 107, 107, 0.534);
-
     }
-
 `;
 
-export const WrapText = styled.div`
-    display: flex;
-    margin: 0 auto;
-`;
