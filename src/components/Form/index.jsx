@@ -38,7 +38,6 @@ const UserForm = ({ title }) => {
         <Input placeholder='Repetir Contraseña...' type='password' {...repeatpassword} />
         <Button type='submit'>{title}</Button>
       </Form>
-      )
     </div>
   );
 };
