@@ -1,11 +1,11 @@
 import { createGlobalStyle } from 'styled-components';
 
-
 const GlobalStyle = createGlobalStyle`
     html {
         box-sizing: border-box;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        color: ${props => props.themes.TextColor};
+        color: ${(props) => props.themes.TextColor};
+        background-color: ${(props) => props.themes.Background};
     }
     
     button {
@@ -13,32 +13,36 @@ const GlobalStyle = createGlobalStyle`
         border: 0;
         outline: 0;
         & svg {
-            color: ${props => props.themes.TextColor};
+            color: ${(props) => props.themes.TextColor};
         }
     }
 
     body {
         background: #fefefe;
-        background-color: ${props => props.themes.Background};
+        background-color: ${(props) => props.themes.Background};
         height: 100vh;
         margin: 0 auto;
         max-width: 100vw;
         overscroll-behavior: none;
         width: 100%;
-        & {
-            background: ${props => props.themes.SecondaryBackgroundColor};
+        &{
+            background-color: ${(props) => props.themes.Background};
         }
+    }
+
+    #navbar{
+        background: ${(props) => props.themes.SecondaryBackgroundColor}
     }
 
 
     form {
-        background: ${props => props.themes.SecondaryBackgroundColor};
+        background: ${(props) => props.themes.SecondaryBackgroundColor};
 
     }
 
     input {
-        background: ${props => props.themes.Background};
-        color: ${props => props.themes.TextColor};
+        background: ${(props) => props.themes.Background};
+        color: ${(props) => props.themes.TextColor};
     }
     
     #app {

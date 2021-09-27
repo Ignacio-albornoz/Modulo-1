@@ -63,7 +63,7 @@ export const Input = styled.input`
     letter-spacing: 0.8px;
     font-family: "Muli", sans-serif;
     ::placeholder {
-    color: rgba(80, 80, 80, 0.315);
+    color: rgba(107, 107, 107, 0.534);
 
     }
 

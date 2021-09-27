@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const BurgerMenu = styled.button`
+export const ButtonChangeTheme = styled.button`
   display: flex;
   align-items: center;
   width: 2.2rem;
@@ -15,15 +15,16 @@ export const BurgerMenu = styled.button`
   & svg {
     padding:1px;
     border-radius: 50%;
-    min-height: 40px;
-    min-width: 40px;
-    box-shadow: 2px 1px 6px 1px rgb(0 0 0 / 30%);
+    min-height: 30px;
+    min-width: 30px;
+    padding: 10%;
+    
 
 
   }
 
   & svg:hover{
     box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
-    background: rgba(0, 0 , 0, 0.03);
+    background: rgba(0, 0 , 0, 0.01);
   }
 `;

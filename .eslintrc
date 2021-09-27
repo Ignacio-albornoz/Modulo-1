@@ -29,6 +29,7 @@
         "react/jsx-filename-extension": 0,
         "array-bracket-spacing": 2,
         "arrow-body-style": 0,
+        "import/prefer-default-export": "off",
         "block-scoped-var": 2,
         "brace-style": [
             2,
