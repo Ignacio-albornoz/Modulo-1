@@ -6,7 +6,6 @@ export const Wrap = styled.div`
 `;
 
 export const Form = styled.form`
-    background-color: #ffffff13;
     width: 80%;
     max-width: 800px;
     height: 80vh;
@@ -16,7 +15,6 @@ export const Form = styled.form`
     margin: auto;
     margin-top: 2vh;
     padding: 0 5%;
-    border: 1px solid #d9d9d9;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     
 `;
